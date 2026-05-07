@@ -13,7 +13,8 @@ html, body {
   padding: 0;
 }
 
-.heading_bar{
+/* This is for the heading stuff */
+.heading_bar {
   position: fixed;
   top: 0;
   left: 0;
@@ -24,30 +25,32 @@ html, body {
   align-items: center;
 }
 
-.name_container{
+.name_container {
   position: absolute;
-  right:20px;
+  right: 20px;
   color: black;
 }
 
-.title_container{
+.title_container {
   position: relative;
   left: 50%;
-  transform: translate( -50%);
+  transform: translate(-50%);
   color: black;
 }
 
-.date_container{
+.date_container {
   position: absolute;
-  left:20px;
+  left: 20px;
   color: black;
 }
 
-.note_book{
+
+/* Notebook section*/
+.note_book {
   position: absolute;
   top: 11%;
   left: 50%;
-  transform: translate( -50%);
+  transform: translate(-50%);
   width: 70%;
   height: 70%;
   background-color: #f3f3f3;
@@ -55,25 +58,24 @@ html, body {
   align-items: center;
 }
 
-.entry_container{
+.entry_container {
   position: absolute;
   top: 20px;
-  left:20px;
+  left: 20px;
   color: black;
 }
 
-
-.button_container{
+/* Lower footer & buttons */
+.button_container {
   position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
   height: 120px;
   background-color: #676767;
-  position: fixed;
 }
 
-.input_button{
+.input_button {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -86,19 +88,21 @@ html, body {
   color: #111111;
 }
 
-.input_button.center-left{
+/* The buttons them selves */
+.input_button.center-left {
   left: calc(50% - 70px);
   transform: translate(-50%, -50%);
 }
-.input_button.center-right{
+
+.input_button.center-right {
   left: calc(50% + 70px);
   transform: translate(-50%, -50%);
 }
 
-.input_button.left{
+.input_button.left {
   left: 20px;
 }
 
-.input_button.right{
+.input_button.right {
   right: 20px;
 }
